@@ -1,0 +1,57 @@
+.submit
+    background-image: url("../bg-submit.png")
+    background-size: cover
+    background-repeat: no-repeat
+    padding-bottom: 500px
+    &__title
+        color: #023135
+        text-align: center
+        font-family: Roboto
+        font-size: 32px
+        font-style: normal
+        font-weight: 400
+        line-height: 44.16px
+        letter-spacing: 0.2px
+        padding-top: 57px
+    &__subtitle
+        color: #023135
+        text-align: center
+        font-family: Roboto
+        font-size: 32px
+        font-style: normal
+        font-weight: 400
+        line-height: 44.16px
+        letter-spacing: 0.2px
+        margin-top: 7px
+
+    &__wrapper
+        display: flex
+        gap: 150px
+        margin-top: 45px
+        justify-content: center
+    
+    &__list
+        color: #023135
+        font-family: Roboto
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0.15px
+    
+    &__list__item:nth-child(1)
+        margin-bottom: 8px
+    
+    &__list__item::before
+        content: ""
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url("../check.png")
+        background-size: cover
+        position: absolute
+        left: -30px
+        top: 5px
+    
+    &__list__item
+        position: relative

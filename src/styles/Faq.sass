@@ -1,0 +1,43 @@
+.faq
+    padding-top: 160px
+    padding-bottom: 100px
+
+    &__title
+        color: #023135
+        text-align: center
+        font-family: Roboto
+        font-size: 32px
+        font-style: normal
+        font-weight: 400
+        line-height: 44.16px
+        letter-spacing: 0.2px
+    
+    &__list
+        color: #023135
+        font-family: Roboto
+        font-size: 16px
+        font-style: normal
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 0.15px
+    
+    &__list__item
+        margin-bottom: 24px
+        position: relative
+
+    &__wrapper
+        margin-top: 22px
+        display: flex
+        flex-direction: column
+        align-items: center
+
+    &__list__item::before
+        content: ""
+        display: block
+        width: 16px
+        height: 16px
+        background-image: url("../plus.png")
+        background-size: cover
+        position: absolute
+        left: -30px
+        top: 4px
